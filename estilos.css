@@ -1,0 +1,98 @@
+html{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: rgb(210, 30, 120);
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    display: inline-block;
+}
+
+
+header a{
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header a:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.arriba{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.arriba img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 3cm;
+}
+
+.mapa{
+    text-align : center;
+}
+
+.mapa img{
+    border: 0.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+
+.africa{
+    text-align : center;
+}
+
+.africa img{
+    border: 0.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 30%;
+    height: 50%;
+}
+
+table{
+    background-color: white;
+    /* cambiar el tamaÃ±o de las columnas */
+    /* table-layout: auto; width:50%; */
+    /* Ajustar el texto a la celda */
+    /* table-layout:fixed; width: 30%; */
+    width: 70%;margin: 0 auto;
+    /* border-spacing: 0; */
+    border-collapse: collapse;}
+    
+
+td, tr{
+        width: 25%;
+        text-align: center;
+        /* solid, dashed, dotted */
+        border: 0.5px solid rgb(0, 0, 0);
+        padding: 4px;
+}
+
+.as img{
+    width: 30px;
+    height: 30PX;
+}
+
+.pie img{
+    width: 30px;
+    height: 30px;
+}
+
+.pie{
+text-align: left;
+color: rgb(16, 5, 1);
+}
