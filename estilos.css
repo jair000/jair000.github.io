@@ -59,8 +59,41 @@ header a:hover{
 .africa img{
     border: 0.5px solid rgb(0, 0, 0);
     border-collapse: collapse;
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 80%;
+}
+
+.america{
+    text-align : center;
+}
+
+.america img{
+    border: 0.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 40%;
+    height: 80%;
+}
+
+.europa{
+    text-align : center;
+}
+
+.europa img{
+    border: 0.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 70%;
+    height: 70%;
+}
+
+.asia{
+    text-align : center;
+}
+
+.asia img{
+    border: 0.5px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 70%;
+    height: 70%;
 }
 
 table{
@@ -95,4 +128,15 @@ td, tr{
 .pie{
 text-align: left;
 color: rgb(16, 5, 1);
+}
+
+.pie a:hover{
+    font-size: large;
+    color: white;
+}
+
+.pie a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
