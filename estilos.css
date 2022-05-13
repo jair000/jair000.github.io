@@ -119,6 +119,10 @@ td, tr{
         padding: 4px;
 }
 
+.as{
+    text-decoration: none;
+}
+
 .as img{
     width: 30px;
     height: 30PX;
