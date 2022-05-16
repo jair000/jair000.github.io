@@ -35,6 +35,10 @@ p{
     margin: 75px;
 }
 
+section{
+    border-radius: 30px;
+}
+
 .uno{
     text-align: center;
     float: left;
