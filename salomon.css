@@ -10,7 +10,7 @@ body{
 }
 
 
-.menu li{
+.menu .arriba{
     display: inline-block;
 }
 
@@ -27,6 +27,24 @@ body{
     font-size: large;
     font-weight: 500;
     color: white;
+    transition: all .3s;
+}
+
+.submenu{
+    background-color: rgb(210, 131, 57);
+    position: absolute;
+    display: none;
+}
+
+.submenu li{
+    display: block;
+    text-decoration: none;
+    border: black 0.1cm solid;
+}
+
+.menu li:hover .submenu{
+    display: block;
+    padding: 0px;
 }
 
 .central{
@@ -53,6 +71,18 @@ body{
     border-collapse: collapse;
     width: 50%;
     height: 50%;
+    box-shadow: 0 4px 8px 0 rgb(101, 95, 95);
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bb1{
+    padding: 5px 40px;
+    font-size: x-large;
+    color: grey;
 }
 
 section{
@@ -71,14 +101,24 @@ section img{
     border: 1px solid black;
     height: 300px;
     margin-bottom: 20px;
+    transform: rotate(3deg);
+    box-shadow: 0 4px 8px 0 rgb(50, 55, 56);
+}
+section img:hover{
+    
+    transform: rotate(-3deg);
 }
 
-p{
+.bb{
     float: right;
     width: 35%;
     margin: 75px;
 }
 
+.uno1{
+    border-radius: 30px;
+    background-color: aqua;
+}
 .dos{
     background-color: purple;
 }
@@ -117,8 +157,4 @@ footer a{
 footer img{
     height: 5%;
     width: 2%;
-}
-
-.menu li>li{
-    display: none;
 }
